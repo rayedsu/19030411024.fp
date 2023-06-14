@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Management Information Systems</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <section>
+    <header>
+		<a href="#" class="logo"><img src="logo.png"></a>
+		<ul>
+		 <li><a href="#past">History of MIS</a></li>
+		 <li><a href="#today">MIS Today</a></li>
+		 <li><a href="#future">MIS in the Future</a></li>
+		</ul>
+   </header>
+   <div class="content">
+	   <div class="textbox">
+		 <h2>Management Information Systems</h2>
+		 <h2>From the Past to the Future</h2>
+	   </div>
+	<div class="imgbox">
+		 <img src="MIS1.png" class="MIS">
+		</div>
+   </div>
+   <ul class="thumb">
+    <li><img src="thumb1.png" onclick="imgSlider('MIS1.png')"></li>
+	<li><img src="thumb2.png" onclick="imgSlider('MIS2.png')"></li>
+	<li><img src="thumb3.png" onclick="imgSlider('MIS3.png')"></li>
+   </ul>
+  </section>
+  <script type="text/javascript">
+     function imgSlider(anything){
+         document.querySelector('.MIS').src = anything;
+		 }
+  </script>
+  
+  <section id="past">
+	<div class="heading">
+		<div class="heading-content">
+			<h1>History of MIS</h1>
+		</div>
+    </div>
+    <p>Management Information Systems (MIS) is a discipline that deals with the use of information technologies 
+	in businesses. The origins of MIS began with the development of computer technology in the 1960s. 
+	Its development has accelerated with the widespread use of computers and the emergence of the internet.</p>
+  </section>
+  
+  <section id="today">
+	<div class="heading">
+		<div class="heading-content">
+			<h1>MIS Today</h1>
+		</div>
+	</div>
+    <p>Management Information Systems (MIS) play an important role in modern organizations these days. 
+  MIS increases their efficiency by providing support to organizations in data management, information 
+  processing, and decision-making processes. At the same time, with the integration of the latest trends 
+  such as cloud computing, big data analytics, and artificial intelligence, MIS is becoming stronger and 
+  helping organizations increase their competitive advantage. In the future, the role of MIS will become 
+  even more important and will continue to be a critical tool in the successful management of organizations.</p>
+  </section>
+  
+  <section id="future">
+	<div class="heading">
+		<div class="heading-content">
+			<h1>MIS in the Future</h1>
+		</div>
+	</div>
+    <p>The future of Management Information Systems (MIS) is shaped by the impact of a number of new technologies 
+	and trends. Technologies such as artificial intelligence (AI), big data analytics, internet of things (IoT), 
+	and cloud computing will play an important role among these advances. AI can increase automation in business processes, 
+	help make better decisions with data analytics, and provide personalized services. Big data analytics can enable businesses 
+	to gain a competitive advantage by making sense of large data sets. The Internet of Things can increase operational efficiency 
+	by enabling real-time data collection and management through sensors. Cloud computing, on the other hand, can improve business 
+	processes by offering flexibility, scalability, and cost advantages. These advances can potentially impact automating business 
+	processes, improving data-driven decision-making, and boosting organizational performance.</p>
+  </section>
+  
+ </body>
+</html
